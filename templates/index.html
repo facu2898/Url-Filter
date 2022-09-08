@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>URL Filter</title>
+</head>
+
+<body>
+
+
+    <div id="top-section">
+        <div class="logo"><img src="https://www.pricestats.com/wp-content/themes/pricestats3/images/logo.png" alt="">
+        </div>
+    </div>
+    <div id="mid-section">
+        <div class="title">
+            <h1>URL Filter</h1>
+        </div>
+        <div class="filter-container">
+            <div class="filter">
+                <h2>Upload New File</h2>
+                <form method=post enctype=multipart/form-data> <p>URL Collection</p>
+                    <input type=file name=urls>
+                    <p>Product package export</p>
+                    <input type=file name=products>
+                    <p>Tolerance</p>
+                    <input type=number min='0' value="0" name=tolerance>
+                    <br>
+                    <input type=submit value=Upload>
+                </form>
+            </div>
+            <div class="instructions">
+                <h2>Instructions</h2>
+                <p>To use this filter first run the product package with your freshely collected URLs. Then upload that
+                    product package export and your URLs in xlsx format in the upload boxes on your left.(DO NOT USE
+                    OTHER FORMATS). Finally choose the tolerance. This is the number of unique products, over one
+                    hundred products, that the filter will tolerate before keeping the URL. For example, with a
+                    tolerance of 1, in a URL of 800 items, the filter will tolerate 8 unique items before NOT discarding
+                    the URL. Finally press upload and wait. An excel file should be downloaded with the filtered URLs.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="bottom-section"></div>
+
+
+</body>
+
+</html>

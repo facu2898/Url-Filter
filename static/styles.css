@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+#top-section{
+    height: 10rem;
+    background-color: #21292e;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 3.5rem;
+}
+
+#mid-section{
+    text-align: center;
+    color: #21292e;
+    font-family: 'Source Code Pro', monospace;    
+    background-color: #ebe5e0;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.filter-container{
+    background-color: #21292e;
+}
+
+
+.filter{
+    display: inline-block;
+    top: 0;
+    width: 40%;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.instructions{
+    display: inline-block;
+    width: 40%;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+
+}
+
